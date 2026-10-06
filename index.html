@@ -202,19 +202,19 @@ function parseWeeks(s){
 }
 
 const COURSES = [
-  { name:"废水处理技术与工程",                day:3, periods:[1,2],      weeksText:"6-9",        loc:"西院-南配楼-103" },
+  { name:"废水处理技术与工程",                day:4, periods:[1,2],      weeksText:"6-9",        loc:"西院-南配楼-103" },
   { name:"水资源规划与管理",                day:1, periods:[3,4,5],    weeksText:"6-11",       loc:"西院-南配楼-102" },
-  { name:"自然辩证法概论",  day:2, periods:[3,4,5],    weeksText:"15-18",      loc:"西院-东教学楼-133（合一）" },
-  { name:"废水处理技术与工程",                day:3, periods:[3,4],      weeksText:"6-9",        loc:"西院-南配楼-103" },
-  { name:"土木水利创新与实践",             day:4, periods:[3,4,5],    weeksText:"6-11",       loc:"西院-南配楼-110" },
-  { name:"土建类专业英语",             day:5, periods:[3,4,5],    weeksText:"10-15",      loc:"西院-南配楼-103" },
+  { name:"自然辩证法概论",  day:3, periods:[3,4,5],    weeksText:"15-18",      loc:"西院-东教学楼-133（合一）" },
+  { name:"废水处理技术与工程",                day:4, periods:[3,4],      weeksText:"6-9",        loc:"西院-南配楼-103" },
+  { name:"土木水利创新与实践",             day:5, periods:[3,4,5],    weeksText:"6-11",       loc:"西院-南配楼-110" },
+  { name:"土建类专业英语",             day:4, periods:[3,4,5],    weeksText:"10-15",      loc:"西院-南配楼-103" },
   { name:"土木水利创新与实践",             day:2, periods:[6,7,8],    weeksText:"6-11",       loc:"西院-南配楼-103" },
   { name:"学术英语读写", day:3, periods:[6,7,8],    weeksText:"6-14",       loc:"西院-工大楼-702" },
   { name:"流体力学理论及其应用",                day:4, periods:[6,7,8],    weeksText:"7-16,17-17,18-18", loc:"西院-南配楼-102" },
   { name:"废水处理技术与工程",                day:1, periods:[9,10],     weeksText:"6-9",        loc:"西院-南配楼-103" },
   { name:"工程伦理学",  day:2, periods:[9,10],     weeksText:"3-4,6-12",   loc:"西院-东教学楼-133（合一）" },
-  { name:"废水处理技术与工程",                day:3, periods:[11,12,13], weeksText:"6-9",        loc:"西院-南配楼-103" },
-  { name:"水资源规划与管理",                day:4, periods:[11,12,13], weeksText:"6-11",       loc:"西院-南配楼-103" },
+  { name:"废水处理技术与工程",                day:1, periods:[11,12,13], weeksText:"6-9",        loc:"西院-南配楼-103" },
+  { name:"水资源规划与管理",                day:3, periods:[11,12,13], weeksText:"6-11",       loc:"西院-南配楼-103" },
 ].map(c => Object.assign({}, c, { weeks: parseWeeks(c.weeksText) }));
 
 const DAYS = ["周一","周二","周三","周四","周五","周六","周日"];
