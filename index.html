@@ -218,6 +218,9 @@ const COURSES = [
   { name:"水资源规划与管理",                day:3, periods:[11,12,13], weeksText:"6-11",       loc:"西院-南配楼-103" },
   { name:"专利申请与专利信息运用",          day:3, periods:[11,12,13], weeksText:"13-17",      loc:"东院-致远楼-111" },
   { name:"专利申请与专利信息运用",          day:4, periods:[11,12,13], weeksText:"18-18",      loc:"东院-致远楼-111" },
+  { name:"东教209排班", day:2, periods:[1,2], weeksText:"7-18",  loc:"东教209" },
+  { name:"东教209排班", day:3, periods:[1,2], weeksText:"1-12",  loc:"东教209" },
+  { name:"东教209排班", day:5, periods:[1,2], weeksText:"13-16", loc:"东教209" },
 ].map(c => Object.assign({}, c, { weeks: parseWeeks(c.weeksText) }));
 
 const DAYS = ["周一","周二","周三","周四","周五","周六","周日"];
